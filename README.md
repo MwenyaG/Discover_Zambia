@@ -14,7 +14,9 @@ Mens Shopping
 
 <img width="488" alt="shoppingpg1" src="https://github.com/MwenyaG/Discover_Zambia/assets/163680035/e1464bb4-08fd-40a8-8a9d-893fcfe9f077">
 
-Womens shopping
+Women's shopping
 
+<img width="500" alt="Shoppingpg2" src="https://github.com/MwenyaG/Discover_Zambia/assets/163680035/0bc4c3b8-bfbb-44c1-bf4c-1f18338ba5c6">
 
-<img width="170" alt="shoppingpage" src="https://github.com/MwenyaG/Discover_Zambia/assets/163680035/bac8daca-dc8e-4f25-a382-a452a9587ebe">
+<img width="473" alt="womens" src="https://github.com/MwenyaG/Discover_Zambia/assets/163680035/fdd5c127-668c-446a-870b-2755e8087d76">
+
