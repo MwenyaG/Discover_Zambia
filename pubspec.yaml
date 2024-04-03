@@ -1,0 +1,229 @@
+name: izambia01
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  webview_flutter: ^3.0.0
+  url_launcher: ^6.1.7
+  google_fonts: ^3.0.1
+  carousel_slider: ^4.0.0
+  flutter_vector_icons: ^1.0.0
+
+
+
+
+
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  foundation_flutter: ^0.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  assets:
+    - Images_Izambia/Homepage.jpg
+    - Images_Izambia/a.jpeg
+    - Images_Izambia/pics/aa.jpg
+    - Images_Izambia/pics/bb.jpg
+    - Images_Izambia/pics/cc.jpg
+    - Images_Izambia/pics/dd.jpg
+    - Images_Izambia/pics/ee.jpg
+    - Images_Izambia/b.jpeg
+    - Images_Izambia/chick.jpg
+    - Images_Izambia/bb.jpeg
+    - Images_Izambia/c.jpeg
+    - Images_Izambia/d.jpeg
+    - Images_Izambia/e.jpeg
+    - Images_Izambia/f.jpeg
+    - Images_Izambia/gg.jpeg
+    - Images_Izambia/h.jpeg
+    - Images_Izambia/second.jpg
+    - Images_Izambia/third.jpg
+    - Images_Izambia/fourth.jpg
+    - Images_Izambia/fifth.jpg
+    - Images_Izambia/services.jpg
+    - Images_Izambia/entertainment.jpg
+    - Images_Izambia/shopping.jpg
+    - Images_Izambia/real estate.jpg
+    - Images_Izambia/resturants.jpg
+    - Images_Izambia/iz-logo.png
+    - Images_Izambia/iz-shop-logo.png
+    - Images_Izambia/iz-real-estate-logo.png
+    - Images_Izambia/shopping legs.jpg
+    - Images_Izambia/shopping women.jpg
+    - Images_Izambia/shopping men.jpg
+    - Images_Izambia/shopping teens.jpg
+    - Images_Izambia/pics2/accessories.png
+    - Images_Izambia/pics2/ama.jpg
+    - Images_Izambia/pics2/jackets.jpeg
+    - Images_Izambia/pics2/pullover.jpeg
+    - Images_Izambia/pics2/shirt.jpg
+    - Images_Izambia/pics2/shoes.jpeg
+    - Images_Izambia/pics2/suits.jpg
+    - Images_Izambia/pics2/wallet.jpeg
+    - Images_Izambia/pics2/watch1.jpg
+    - Images_Izambia/pics2/watch2.jpg
+    - Images_Izambia/pics2/trousers.jpeg
+    - Images_Izambia/pics2/wtitle.jpg
+    - Images_Izambia/pics2/wtitle2.jpg
+    - Images_Izambia/pics2/wtitle3.jpg
+    - Images_Izambia/pics2/dress.jpg
+    - Images_Izambia/pics2/heels.jpg
+    - Images_Izambia/pics2/skirt.jpg
+    - Images_Izambia/pics2/wjacket.jpg
+    - Images_Izambia/pics2/wtrousers.jpg
+    - Images_Izambia/pics2/womblouse.png
+    - Images_Izambia/pics2/ww.jpg
+    - Images_Izambia/pics2/www.jpg
+    - Images_Izambia/n/bantufash.jpeg
+    - Images_Izambia/n/blouse.jpeg
+    - Images_Izambia/n/dress.jpeg
+    - Images_Izambia/n/jackets.jpeg
+    - Images_Izambia/n/mint.jpeg
+    - Images_Izambia/n/scapgirl1.jpeg
+    - Images_Izambia/n/scapgirl2.jpeg
+    - Images_Izambia/n/scapgirl3.jpeg
+    - Images_Izambia/n/skirts.jpeg
+    - Images_Izambia/n/tousers.jpeg
+    - Images_Izambia/n/trouserss.jpeg
+    - Images_Izambia/n/now.jpeg
+    - Images_Izambia/n/shoess.jpeg
+    - Images_Izambia/n/acce.jpeg
+    - Images_Izambia/n/shirts.jpeg
+    - Images_Izambia/n/good.jpeg
+    - Images_Izambia/n/pullovers.jpeg
+    - Images_Izambia/n/newd.jpeg
+    - Images_Izambia/n/crafted.jpeg
+    - Images_Izambia/n/suits.jpeg
+    - Images_Izambia/n/jack.jpeg
+    - Images_Izambia/n/time.jpeg
+    - Images_Izambia/n/keg.jpeg
+    - Images_Izambia/n/moc.jpeg
+    - Images_Izambia/s/acc.jpeg
+    - Images_Izambia/s/acco.jpeg
+    - Images_Izambia/s/arc.jpeg
+    - Images_Izambia/s/auto.jpeg
+    - Images_Izambia/s/ban.jpeg
+    - Images_Izambia/s/bak.jpg
+    - Images_Izambia/s/bea.jpeg
+    - Images_Izambia/s/boa.png
+    - Images_Izambia/s/bus.png
+    - Images_Izambia/s/busc.jpeg
+    - Images_Izambia/s/cap.jpeg
+    - Images_Izambia/s/car.jpeg
+    - Images_Izambia/s/cat.jpeg
+    - Images_Izambia/s/cle.jpeg
+    - Images_Izambia/s/cons.jpeg
+    - Images_Izambia/s/den.png
+    - Images_Izambia/s/ele.jpeg
+    - Images_Izambia/s/ene.png
+    - Images_Izambia/s/eve.jpg
+    - Images_Izambia/s/flo.jpeg
+    - Images_Izambia/s/lan.jpeg
+    - Images_Izambia/s/plu.jpeg
+    - Images_Izambia/s/wel.jpeg
+    - Images_Izambia/s/well.jpeg
+    - Images_Izambia/n/paul1.jpeg
+    - Images_Izambia/n/paul2.jpeg
+    - Images_Izambia/n/paul3.jpeg
+    - Images_Izambia/n/paul4.jpeg
+    - Images_Izambia/n/nails.jpeg
+    - Images_Izambia/n/jeans.jpeg
+    - Images_Izambia/n/skirtss.jpeg
+    - Images_Izambia/n/shoes.jpeg
+    - Images_Izambia/n/paulf.jpeg
+    - Images_Izambia/n/bags.jpeg
+    - Images_Izambia/n/dresss.jpeg
+    - Images_Izambia/trend.jpg
+    - Images_Izambia/chica.jpg
+    - Images_Izambia/lat.jpg
+    - Images_Izambia/img.png
+    - Images_Izambia/rest1.jpg
+    - Images_Izambia/rest2.jpg
+    - Images_Izambia/rest3.jpg
+    - Images_Izambia/rest4.jpg
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
